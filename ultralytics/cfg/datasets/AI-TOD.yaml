@@ -1,0 +1,15 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: E:\BaiduNetdiskDownload\遥感数据集\AI-TOD # dataset root dir
+train: train #
+val: val #
+#test: E:\BaiduNetdiskDownload\ultralytics-8.3.2\visDrone2019\VisDrone2019-DET-test-dev #
+
+names:
+  0: airplane           # 飞机（对应原始数据集类别）
+  1: bridge             # 桥梁（对应原始数据集类别）
+  2: storage-tank       # 储罐（对应原始数据集类别）
+  3: ship               # 船舶（对应原始数据集类别）
+  4: swimming-pool      # 游泳池（对应原始数据集类别）
+  5: vehicle            # 车辆（原始数据集的通用车辆类别，需注意与其他数据集的差异）
+  6: person             # 行人（对应原始数据集类别）
+  7: wind-mill          # 风车（对应原始数据集类别，保持原始拼写）

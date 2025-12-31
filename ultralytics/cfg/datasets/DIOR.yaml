@@ -1,0 +1,28 @@
+path: E:\BaiduNetdiskDownload\遥感数据集\DIORnew-副本 # dataset root dir
+train: train
+val: test
+test: test
+
+
+nc: 20                 # 类别数量（与classes列表一致）
+names:                # 类别名称（与classes列表一致）
+  - airplane
+  - airport
+  - baseballfield
+  - basketballcourt
+  - bridge
+  - chimney
+  - dam
+  - Expressway-Service-area
+  - Expressway-toll-station
+  - golffield
+  - groundtrackfield
+  - harbor
+  - overpass
+  - ship
+  - stadium
+  - storagetank
+  - tenniscourt
+  - trainstation
+  - vehicle
+  - windmill

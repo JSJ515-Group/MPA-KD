@@ -1,0 +1,17 @@
+path: E:\BaiduNetdiskDownload\遥感数据集\NWPU # dataset root dir
+train: train # train images (relative to 'path')  6471 images
+val: val # val images (relative to 'path')  548 images
+#test: E:\BaiduNetdiskDownload\ultralytics-8.3.2\visDrone2019\VisDrone2019-DET-test-dev # test images (optional)  1610 images
+
+
+names:
+  0: airplane
+  1: ship
+  2: storage tank  #储油罐
+  3: baseball diamond  #棒球场
+  4: tennis court
+  5: basketball court
+  6: ground track field  #田径场
+  7: harbor
+  8: bridge
+  9: vehicle   #车辆

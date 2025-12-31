@@ -1,0 +1,10 @@
+path: E:\BaiduNetdiskDownload\ultralytics-8.3.2 - 总工程neckhead\UAVDT # dataset root dir
+train: E:\BaiduNetdiskDownload\ultralytics-8.3.2 - 总工程neckhead\UAVDT\UAVDT-train
+val: E:\BaiduNetdiskDownload\ultralytics-8.3.2 - 总工程neckhead\UAVDT\UAVDT-test
+
+
+nc: 3
+names:
+  - car  # 统一两个空格缩进
+  - truck
+  - bus
